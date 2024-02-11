@@ -1,0 +1,100 @@
+﻿  NN.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244: 'return' : conversion de 'double' en '_Rx', perte possible de données
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244:             _Rx=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244:         ]
+  (compiler le fichier source 'NN.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31):
+  le contexte d’instanciation du modèle (le plus ancien) est
+  	C:\Users\alexi\Desktop\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(2215,44):
+  	voir la référence à l'instanciation de la fonction modèle 'activationFunction<float> GetActivation<float>(const char *)' en cours de compilation
+  	C:\Users\alexi\Desktop\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1087,21):
+  	voir la référence à l'instanciation de la fonction modèle 'std::function<NUMBER_TYPE (NUMBER_TYPE)> &std::function<NUMBER_TYPE (NUMBER_TYPE)>::operator =<GetActivation::<lambda_14>,0>(_Fx &&)' en cours de compilation
+          with
+          [
+              NUMBER_TYPE=float,
+              _Fx=GetActivation::<lambda_14>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(1070,35):
+  	voir la référence à l'instanciation de la fonction modèle 'std::function<NUMBER_TYPE (NUMBER_TYPE)>::function<GetActivation::<lambda_14>,0>(_Fx &&)' en cours de compilation
+          with
+          [
+              NUMBER_TYPE=float,
+              _Fx=GetActivation::<lambda_14>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(1023,13):
+  	voir la référence à l'instanciation de la fonction modèle 'void std::_Func_class<_Ret,NUMBER_TYPE>::_Reset<_Ty>(_Fx &&)' en cours de compilation
+          with
+          [
+              _Ret=float,
+              NUMBER_TYPE=float,
+              _Ty=GetActivation::<lambda_14>,
+              _Fx=GetActivation::<lambda_14>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(896,23):
+  	voir les informations de référence sur le modèle de variable 'const bool _Is_large<std::_Func_impl_no_alloc<`GetActivation<float>'::`31'::<lambda_14>,float,float> >' en cours de compilation
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(698,1):
+  	voir la référence à l'instanciation classe modèle 'std::_Func_impl_no_alloc<GetActivation::<lambda_14>,_Ret,NUMBER_TYPE>' en cours de compilation
+          with
+          [
+              _Ret=float,
+              NUMBER_TYPE=float
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(806,9):
+  	pendant la compilation de la fonction membre classe modèle '_Rx std::_Func_impl_no_alloc<GetActivation::<lambda_14>,_Rx,NUMBER_TYPE>::_Do_call(NUMBER_TYPE &&)'
+          with
+          [
+              _Rx=float,
+              NUMBER_TYPE=float
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244: 'return' : conversion de 'int' en '_Rx', perte possible de données
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244:             _Rx=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244:         ]
+  (compiler le fichier source 'NN.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31):
+  le contexte d’instanciation du modèle (le plus ancien) est
+  	C:\Users\alexi\Desktop\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1036,21):
+  	voir la référence à l'instanciation de la fonction modèle 'std::function<NUMBER_TYPE (NUMBER_TYPE)> &std::function<NUMBER_TYPE (NUMBER_TYPE)>::operator =<GetActivation::<lambda_2>,0>(_Fx &&)' en cours de compilation
+          with
+          [
+              NUMBER_TYPE=float,
+              _Fx=GetActivation::<lambda_2>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(1070,35):
+  	voir la référence à l'instanciation de la fonction modèle 'std::function<NUMBER_TYPE (NUMBER_TYPE)>::function<GetActivation::<lambda_2>,0>(_Fx &&)' en cours de compilation
+          with
+          [
+              NUMBER_TYPE=float,
+              _Fx=GetActivation::<lambda_2>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(1023,13):
+  	voir la référence à l'instanciation de la fonction modèle 'void std::_Func_class<_Ret,NUMBER_TYPE>::_Reset<_Ty>(_Fx &&)' en cours de compilation
+          with
+          [
+              _Ret=float,
+              NUMBER_TYPE=float,
+              _Ty=GetActivation::<lambda_2>,
+              _Fx=GetActivation::<lambda_2>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(896,23):
+  	voir les informations de référence sur le modèle de variable 'const bool _Is_large<std::_Func_impl_no_alloc<`GetActivation<float>'::`7'::<lambda_2>,float,float> >' en cours de compilation
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(698,1):
+  	voir la référence à l'instanciation classe modèle 'std::_Func_impl_no_alloc<GetActivation::<lambda_2>,_Ret,NUMBER_TYPE>' en cours de compilation
+          with
+          [
+              _Ret=float,
+              NUMBER_TYPE=float
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(806,9):
+  	pendant la compilation de la fonction membre classe modèle '_Rx std::_Func_impl_no_alloc<GetActivation::<lambda_2>,_Rx,NUMBER_TYPE>::_Do_call(NUMBER_TYPE &&)'
+          with
+          [
+              _Rx=float,
+              NUMBER_TYPE=float
+          ]
+  
+  NN.vcxproj -> C:\Users\alexi\Desktop\Bot\BrainJS\brain\Mario Kart 8\ai\NN\x64\Debug\NN.exe

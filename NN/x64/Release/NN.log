@@ -1,0 +1,296 @@
+﻿  NN.cpp
+C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(160,13): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1987,9): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+  C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1987,9):
+  le contexte d’instanciation du modèle (le plus ancien) est
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(2468,36):
+  	voir la référence à l'instanciation classe modèle 'std::variant<DenseLayer<NUMBER_TYPE>,FastConvolutionnalLayer<NUMBER_TYPE>,ConvolutionnalLayer<NUMBER_TYPE>,DropoutLayer<NUMBER_TYPE>>' en cours de compilation
+          with
+          [
+              NUMBER_TYPE=float
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\variant(965,25):
+  	voir la référence à l'instanciation alias modèle 'std::_SMF_control<std::_Variant_destroy_layer_<DenseLayer<NUMBER_TYPE>,FastConvolutionnalLayer<NUMBER_TYPE>,ConvolutionnalLayer<NUMBER_TYPE>,DropoutLayer<NUMBER_TYPE>>,DenseLayer<NUMBER_TYPE>,FastConvolutionnalLayer<NUMBER_TYPE>,ConvolutionnalLayer<NUMBER_TYPE>,DropoutLayer<NUMBER_TYPE>>' en cours de compilation
+          with
+          [
+              NUMBER_TYPE=float
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xsmf_control.h(159,22):
+  	voir la référence à l'instanciation alias modèle 'std::_SMF_control_move_assign<std::_Variant_destroy_layer_<DenseLayer<NUMBER_TYPE>,FastConvolutionnalLayer<NUMBER_TYPE>,ConvolutionnalLayer<NUMBER_TYPE>,DropoutLayer<NUMBER_TYPE>>,DenseLayer<NUMBER_TYPE>,FastConvolutionnalLayer<NUMBER_TYPE>,ConvolutionnalLayer<NUMBER_TYPE>,DropoutLayer<NUMBER_TYPE>>' en cours de compilation
+          with
+          [
+              NUMBER_TYPE=float
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xsmf_control.h(154,9):
+  	voir la référence à l'instanciation alias modèle 'std::_SMF_control_copy_assign<std::_Variant_destroy_layer_<DenseLayer<NUMBER_TYPE>,FastConvolutionnalLayer<NUMBER_TYPE>,ConvolutionnalLayer<NUMBER_TYPE>,DropoutLayer<NUMBER_TYPE>>,DenseLayer<NUMBER_TYPE>,FastConvolutionnalLayer<NUMBER_TYPE>,ConvolutionnalLayer<NUMBER_TYPE>,DropoutLayer<NUMBER_TYPE>>' en cours de compilation
+          with
+          [
+              NUMBER_TYPE=float
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xsmf_control.h(117,9):
+  	voir la référence à l'instanciation alias modèle 'std::_SMF_control_move<std::_Variant_destroy_layer_<DenseLayer<NUMBER_TYPE>,FastConvolutionnalLayer<NUMBER_TYPE>,ConvolutionnalLayer<NUMBER_TYPE>,DropoutLayer<NUMBER_TYPE>>,DenseLayer<NUMBER_TYPE>,FastConvolutionnalLayer<NUMBER_TYPE>,ConvolutionnalLayer<NUMBER_TYPE>,DropoutLayer<NUMBER_TYPE>>' en cours de compilation
+          with
+          [
+              NUMBER_TYPE=float
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xsmf_control.h(80,78):
+  	voir la référence à l'instanciation alias modèle 'std::_SMF_control_copy<std::_Variant_destroy_layer_<DenseLayer<NUMBER_TYPE>,FastConvolutionnalLayer<NUMBER_TYPE>,ConvolutionnalLayer<NUMBER_TYPE>,DropoutLayer<NUMBER_TYPE>>,DenseLayer<NUMBER_TYPE>,FastConvolutionnalLayer<NUMBER_TYPE>,ConvolutionnalLayer<NUMBER_TYPE>,DropoutLayer<NUMBER_TYPE>>' en cours de compilation
+          with
+          [
+              NUMBER_TYPE=float
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xsmf_control.h(49,19):
+  	voir les informations de référence sur le modèle de variable 'const bool conjunction_v<std::is_copy_constructible<DenseLayer<float> >,std::is_copy_constructible<FastConvolutionnalLayer<float> >,std::is_copy_constructible<ConvolutionnalLayer<float> >,std::is_copy_constructible<DropoutLayer<float> > >' en cours de compilation
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xsmf_control.h(48,27):
+  	voir la référence à l'instanciation classe modèle 'FastConvolutionnalLayer<NUMBER_TYPE>' en cours de compilation
+          with
+          [
+              NUMBER_TYPE=float
+          ]
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1984,22):
+  	pendant la compilation de la fonction membre classe modèle 'Tensor<float> FastConvolutionnalLayer<NUMBER_TYPE>::build(Tensor<NUMBER_TYPE>)'
+          with
+          [
+              NUMBER_TYPE=float
+          ]
+  		C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(2082,12):
+  		voir la première référence à « FastConvolutionnalLayer<NUMBER_TYPE>::build » dans « Sequential<float,Tensor<float>,Tensor<float>,INPUT,OUTPUT>::build »
+          with
+          [
+              NUMBER_TYPE=float
+          ]
+          and
+          [
+              INPUT=Tensor<float>,
+              OUTPUT=Tensor<float>
+          ]
+  		C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(2483,11):
+  		voir la première référence à « Sequential<float,Tensor<float>,Tensor<float>,INPUT,OUTPUT>::build » dans « main2 »
+          with
+          [
+              INPUT=Tensor<float>,
+              OUTPUT=Tensor<float>
+          ]
+  
+C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(548,31): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+  C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(548,31):
+  le contexte d’instanciation du modèle (le plus ancien) est
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(2428,3):
+  	voir la référence à l'instanciation classe modèle 'Tensor<float>' en cours de compilation
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(539,7):
+  	pendant la compilation de la fonction membre classe modèle 'void Tensor<float>::resize(std::vector<int,std::allocator<int>>)'
+  		C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(352,15):
+  		voir la première référence à « Tensor<float>::resize » dans « Tensor<float>::Tensor »
+  		C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(2481,17):
+  		voir la première référence à « Tensor<float>::Tensor » dans « main2 »
+  
+C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(549,27): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(655,15): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+  C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(655,15):
+  le contexte d’instanciation du modèle (le plus ancien) est
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(2035,2):
+  	voir la référence à l'instanciation classe modèle 'DropoutLayer<NUMBER_TYPE>' en cours de compilation
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(2001,14):
+  	voir la référence à l'instanciation classe modèle 'Tensor<int>' en cours de compilation
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(627,7):
+  	pendant la compilation de la fonction membre classe modèle 'void Tensor<int>::shift(std::vector<int,std::allocator<int>>,std::vector<int,std::allocator<int>>,std::vector<int,std::allocator<int>>)'
+  		C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1192,22):
+  		voir la première référence à « Tensor<int>::shift » dans « Tensor<int>::convolve »
+  		C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(2513,16):
+  		voir la première référence à « Tensor<int>::convolve » dans « main »
+  
+C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(623,25): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+  C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(623,25):
+  le contexte d’instanciation du modèle (le plus ancien) est
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(552,7):
+  	pendant la compilation de la fonction membre classe modèle 'void Tensor<int>::pad(std::vector<int,std::allocator<int>>,std::vector<int,std::allocator<int>>,std::vector<bool,std::allocator<bool>>)'
+  		C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1160,12):
+  		voir la première référence à « Tensor<int>::pad » dans « Tensor<int>::convolve »
+  		C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(2513,16):
+  		voir la première référence à « Tensor<int>::convolve » dans « main »
+  
+C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(624,21): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1057,9): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+  C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1057,9):
+  le contexte d’instanciation du modèle (le plus ancien) est
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1225,22):
+  	pendant la compilation de la fonction membre classe modèle 'Tensor<float> Tensor<float>::fast_convolve(Tensor<float>)'
+  		C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1971,36):
+  		voir la première référence à « Tensor<float>::fast_convolve » dans « FastConvolutionnalLayer<NUMBER_TYPE>::forward »
+          with
+          [
+              NUMBER_TYPE=float
+          ]
+  		C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(2218,12):
+  		voir la première référence à « FastConvolutionnalLayer<NUMBER_TYPE>::forward » dans « Sequential<float,Tensor<float>,Tensor<float>,INPUT,OUTPUT>::forward »
+          with
+          [
+              NUMBER_TYPE=float
+          ]
+          and
+          [
+              INPUT=Tensor<float>,
+              OUTPUT=Tensor<float>
+          ]
+  		C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(2486,18):
+  		voir la première référence à « Sequential<float,Tensor<float>,Tensor<float>,INPUT,OUTPUT>::forward » dans « main2 »
+          with
+          [
+              INPUT=Tensor<float>,
+              OUTPUT=Tensor<float>
+          ]
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1055,7):
+  	pendant la compilation de la fonction membre classe modèle 'auto Tensor<float>::fft(void)'
+  
+C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1069,9): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+  C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1069,9):
+  le contexte d’instanciation du modèle (le plus ancien) est
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1230,37):
+  	voir la référence à l'instanciation classe modèle 'Tensor<std::complex<float>>' en cours de compilation
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1066,7):
+  	pendant la compilation de la fonction membre classe modèle 'auto Tensor<std::complex<float>>::ifft(void)'
+  
+C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(302,24): warning C4244: 'argument' : conversion de 'int' en 'const std::complex<float>::_Ty', perte possible de données
+  C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(302,24):
+  le contexte d’instanciation du modèle (le plus ancien) est
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1055,7):
+  	pendant la compilation de la fonction membre classe modèle 'Tensor<std::complex<float>> Tensor<float>::fft(void)'
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1060,20):
+  	voir la référence à l'instanciation classe modèle 'FFT<NUMBER_TYPE>' en cours de compilation
+          with
+          [
+              NUMBER_TYPE=float
+          ]
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(296,41):
+  	pendant la compilation de la fonction membre classe modèle 'std::vector<NUMBER_TYPE,std::allocator<NUMBER_TYPE>> FFT<float>::inverse_transform(std::vector<NUMBER_TYPE,std::allocator<NUMBER_TYPE>>)'
+          with
+          [
+              NUMBER_TYPE=std::complex<float>
+          ]
+  		C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1075,35):
+  		voir la première référence à « FFT<NUMBER_TYPE>::inverse_transform » dans « Tensor<std::complex<float>>::ifft »
+          with
+          [
+              NUMBER_TYPE=float
+          ]
+  
+C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(286,21): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+  C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(286,21):
+  le contexte d’instanciation du modèle (le plus ancien) est
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(284,2):
+  	pendant la compilation de la fonction membre classe modèle 'FFT<NUMBER_TYPE>::FFT(int)'
+          with
+          [
+              NUMBER_TYPE=float
+          ]
+  		C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1060,31):
+  		voir la première référence à « FFT<NUMBER_TYPE>::FFT » dans « Tensor<float>::fft »
+          with
+          [
+              NUMBER_TYPE=float
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244: 'return' : conversion de 'double' en '_Rx', perte possible de données
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244:             _Rx=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244:         ]
+  (compiler le fichier source 'NN.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31):
+  le contexte d’instanciation du modèle (le plus ancien) est
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(2468,87):
+  	voir la référence à l'instanciation de la fonction modèle 'activationFunction<float> GetActivation<float>(const char *)' en cours de compilation
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1460,21):
+  	voir la référence à l'instanciation de la fonction modèle 'std::function<NUMBER_TYPE (NUMBER_TYPE)> &std::function<NUMBER_TYPE (NUMBER_TYPE)>::operator =<GetActivation::<lambda_14>,0>(_Fx &&)' en cours de compilation
+          with
+          [
+              NUMBER_TYPE=float,
+              _Fx=GetActivation::<lambda_14>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(1070,35):
+  	voir la référence à l'instanciation de la fonction modèle 'std::function<NUMBER_TYPE (NUMBER_TYPE)>::function<GetActivation::<lambda_14>,0>(_Fx &&)' en cours de compilation
+          with
+          [
+              NUMBER_TYPE=float,
+              _Fx=GetActivation::<lambda_14>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(1023,13):
+  	voir la référence à l'instanciation de la fonction modèle 'void std::_Func_class<_Ret,NUMBER_TYPE>::_Reset<_Ty>(_Fx &&)' en cours de compilation
+          with
+          [
+              _Ret=float,
+              NUMBER_TYPE=float,
+              _Ty=GetActivation::<lambda_14>,
+              _Fx=GetActivation::<lambda_14>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(896,23):
+  	voir les informations de référence sur le modèle de variable 'const bool _Is_large<std::_Func_impl_no_alloc<`GetActivation<float>'::`31'::<lambda_14>,float,float> >' en cours de compilation
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(698,1):
+  	voir la référence à l'instanciation classe modèle 'std::_Func_impl_no_alloc<GetActivation::<lambda_14>,_Ret,NUMBER_TYPE>' en cours de compilation
+          with
+          [
+              _Ret=float,
+              NUMBER_TYPE=float
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(806,9):
+  	pendant la compilation de la fonction membre classe modèle '_Rx std::_Func_impl_no_alloc<GetActivation::<lambda_14>,_Rx,NUMBER_TYPE>::_Do_call(NUMBER_TYPE &&)'
+          with
+          [
+              _Rx=float,
+              NUMBER_TYPE=float
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244: 'return' : conversion de 'int' en '_Rx', perte possible de données
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244:             _Rx=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31): warning C4244:         ]
+  (compiler le fichier source 'NN.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(810,31):
+  le contexte d’instanciation du modèle (le plus ancien) est
+  	C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\NN\NN.cpp(1409,21):
+  	voir la référence à l'instanciation de la fonction modèle 'std::function<NUMBER_TYPE (NUMBER_TYPE)> &std::function<NUMBER_TYPE (NUMBER_TYPE)>::operator =<GetActivation::<lambda_2>,0>(_Fx &&)' en cours de compilation
+          with
+          [
+              NUMBER_TYPE=float,
+              _Fx=GetActivation::<lambda_2>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(1070,35):
+  	voir la référence à l'instanciation de la fonction modèle 'std::function<NUMBER_TYPE (NUMBER_TYPE)>::function<GetActivation::<lambda_2>,0>(_Fx &&)' en cours de compilation
+          with
+          [
+              NUMBER_TYPE=float,
+              _Fx=GetActivation::<lambda_2>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(1023,13):
+  	voir la référence à l'instanciation de la fonction modèle 'void std::_Func_class<_Ret,NUMBER_TYPE>::_Reset<_Ty>(_Fx &&)' en cours de compilation
+          with
+          [
+              _Ret=float,
+              NUMBER_TYPE=float,
+              _Ty=GetActivation::<lambda_2>,
+              _Fx=GetActivation::<lambda_2>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(896,23):
+  	voir les informations de référence sur le modèle de variable 'const bool _Is_large<std::_Func_impl_no_alloc<`GetActivation<float>'::`7'::<lambda_2>,float,float> >' en cours de compilation
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(698,1):
+  	voir la référence à l'instanciation classe modèle 'std::_Func_impl_no_alloc<GetActivation::<lambda_2>,_Ret,NUMBER_TYPE>' en cours de compilation
+          with
+          [
+              _Ret=float,
+              NUMBER_TYPE=float
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\functional(806,9):
+  	pendant la compilation de la fonction membre classe modèle '_Rx std::_Func_impl_no_alloc<GetActivation::<lambda_2>,_Rx,NUMBER_TYPE>::_Do_call(NUMBER_TYPE &&)'
+          with
+          [
+              _Rx=float,
+              NUMBER_TYPE=float
+          ]
+  
+  Génération de code en cours
+  2 of 460 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Fin de la génération du code
+  NN.vcxproj -> C:\Users\alexi\OneDrive\Bureau\Bot\BrainJS\brain\Mario Kart 8\ai\NN\x64\Release\NN.exe
